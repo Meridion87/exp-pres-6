@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Actividad 6</title>
+	<style type="text/css">
+		body{
+			background-color: #eeeeee;
+			border: 0;
+			padding: 0;
+			padding: 0;
+		}
+		@media(max-width: 480px){
+			.encabezado-c{
+				width: 90%;
+				background-color: black;
+
+			}
+			.main-c{
+			width: 100%;
+			box-sizing: border-box;
+
+			}
+			.sidebar-c{
+			width: 100%;
+			box-sizing: border-box;
+			}
+
+		}
+		@media(min-width: 481px){
+			.encabezado-g{
+				margin-top: 200px;
+				width: 90%;
+				margin-left: 5%;
+				margin-right: 5%;
+				background-color: white;
+				height: 400px;
+
+			}
+		
+			.main-g{
+				width: 55%;
+				box-sizing: border-box;
+				margin-left: 5%;
+				height: 200px;
+				background-color: white;
+				float: left;
+				height: 800px;
+				padding-right: 10px;
+				padding-left: 5px;
+
+			}
+			.sidebar-g{
+				width: 35%;
+				box-sizing: border-box;
+				margin-right: 5%;
+				height: 200px;
+				background-color: white;
+				float: left;
+				height: 800px;
+
+			}
+
+		}
+
+		.img-perfil{
+			background-image: url('avatar.jpg');
+			max-width: 100%;
+			background-repeat: no-repeat;
+			height: 300px;
+			width: 300px;
+			background-position: center center;
+			border-radius: 50%;
+			margin: auto;
+			border: 5px gray solid;		
+
+
+		}
+		.encabezado-g h1{
+			text-align: center;
+
+		}
+		.fuente-roja{
+			color: red;
+		}
+		.negrita{
+			font-weight: bold;
+		}
+		.fondo-gris{
+			background-color: gray;
+		}
+		.lado{
+			float: left;
+		}
+		.ancho-10{
+			width: 10%;
+		}
+		.ancho-90{
+			width: 90%;
+		}
+		.ancho-20{
+			width: 20%;
+		}
+		.ancho-80{
+			width: 80%;
+		}
+		.limpia-float{
+			clear: both;
+		}
+		.margen-bot-5{
+			margin-bottom: 5px;
+		}
+		.margen-bot-10{
+			margin-bottom: 10px;
+		}
+		.el-inline{
+			display: inline;
+		}
+		.barra{
+			background-color: orange;
+		}
+
+		.porc-90{
+			width: 90%;
+		}
+		.porc-80{
+			width: 80%;
+		}
+		.porc-70{
+			width: 70%;
+		}
+		.porc-60{
+			width: 60%;
+		}
+		.porc-50{
+			width: 50%;
+		}
+		.porc-40{
+			width: 40%;
+		}
+		.porc-30{
+			width: 30%;
+		}
+		.porc-20{
+			width: 20%;
+		}
+		.porc-10{
+			width: 10%;
+		}
+		.fuente-blanca{
+			color: white;
+		}
+		.padding-ancho{
+			padding-top: 3px;
+			padding-bottom: 3px;
+			margin-bottom: 2px;
+		}
+		.hobby{
+			background-color: violet;
+			color: white;
+			display: inline;
+			margin-right: 5px;
+			padding-top: 2px;
+			padding-bottom: 2px;
+		}
+		.star{
+			
+			width: 20px;
+			height: 20px;
+			background-size: cover;
+			display: inline-block;
+			margin-right: 2px;
+			margin-left: 2px;
+		}
+		.star.redstar{
+			background-image: url('redstar.png');
+		}
+		.star.graystar{
+			background-image: url('graystar.png');
+		}
+		
+		
+	</style>
+</head>
+<body>
+	<div class="encabezado-g">
+		<div class="img-perfil"></div>
+		<div>
+			<h1>HOLA MI NOMBRE EL <span class="fuente-roja">MIGUEL</span> Y ESTE ES MI RESUMEN</h1>
+		</div>
+	</div>
+	<div class="main-c main-g">
+		<h2 class="fuente-roja">// ACERCA DE</h2>
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+		proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+		<h2 class="fuente-roja">// EDUCACIÓN</h2>
+		<div>
+			<div class="lado ancho-10">
+				<p class="negrita">2012</p>
+			</div>					
+			<div class="fondo-gris lado ancho-90 margen-bot-5">
+				<p class="negrita">I was born in Katowise</p>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+			consequat.</p>
+			</div>
+		</div>
+		<div class="lado ancho-10">
+			<p class="negrita">1986</p>
+		</div>
+		
+		<div class="fondo-gris lado ancho-90 margen-bot-10">
+			<p class="negrita">I was born in Katowise</p>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+		consequat.</p>
+		</div>
+
+		<h2 class="fuente-roja limpia-float">// EXPERIENCIA</h2>
+		<div class="lado ancho-20">
+			<p class="negrita">Google</p>
+			<p>2013-2014</p>
+		</div>
+		<div class="lado ancho-80">
+			<p class="negrita">Front-end developer / php programmer</p>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+			consequat.</p>
+		</div>
+		<div class="lado ancho-20">
+			<p class="negrita">Google</p>
+			<p>2013-2014</p>
+		</div>
+		<div class="lado ancho-80">
+			<p class="negrita">Front-end developer / php programmer</p>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+			consequat.</p>
+			
+		</div>
+	</div>
+	<div class="sidebar-c sidebar-g">
+		<h2 class="fuente-roja">// CONTACTO</h2>
+		<ul>
+			<li><span class="negrita">Email: </span>miguel@ewok.cl</li>
+			<li><span class="negrita">Skype: </span>miguelcantillana</li>
+			<li><span class="negrita">Twitter: </span>@miguelinux</li>
+			<li><span class="negrita">Facebook: </span>/miguelcantillana</li>
+		</ul>
+
+		<h2 class="fuente-roja">// SKILLS</h2>
+		<div class="barra fuente-blanca porc-90 padding-ancho">PYTHON</div>
+		<div class="barra fuente-blanca porc-80 padding-ancho">HTML</div>
+		<div class="barra fuente-blanca porc-60 padding-ancho">CSS</div>
+		<div class="barra fuente-blanca porc-40 padding-ancho">JS</div>
+		<div class="barra fuente-blanca porc-30 padding-ancho">PHP</div>
+
+		<h2 class="fuente-roja">// IDIOMAS</h2>
+		<p class="el-inline">Inglés 
+		<div class="star redstar"></div>
+		<div class="star redstar"></div>
+		<div class="star redstar"></div>
+		<div class="star graystar"></div>
+		<div class="star graystar"></div>
+		</p>
+		
+		<p class="el-inline">Español 
+		<div class="star redstar"></div>
+		<div class="star redstar"></div>
+		<div class="star redstar"></div>
+		<div class="star redstar"></div>
+		<div class="star graystar"></div></p>
+
+		<h2 class="fuente-roja">// HOBBIES</h2>
+		<p class="hobby">Fotografía</p>
+		<p class="hobby">Deporte</p>
+		<p class="hobby">Música</p>
+	</div>
+
+
+</body>
+</html>
